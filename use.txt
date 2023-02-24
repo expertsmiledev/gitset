@@ -1,0 +1,5 @@
+python contribute.py --max_commits=5 --frequency=60 --no_weekends --repository=https://github.com/ichirodaichi/my-history.git
+
+git pull origin
+git push origin
+git push --set-upstream origin main -f
